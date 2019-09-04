@@ -12,6 +12,7 @@ Download Python 3.6.5:  (https://www.python.org/downloads/)
 *Presentation(~10mins)  
 Topics:*
 - Introductions
+
 *Lab
 - Hello, World Demo!
 - Environment SetUp(IDE,Python 3,GitHub)
