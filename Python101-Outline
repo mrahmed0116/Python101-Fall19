@@ -1,10 +1,11 @@
 # Python 101 Series: 6 Weeks Course Outline  
 
-Proposed Class Time: Fridays 4:00PM- 5:00PM  
+Class Time: Wednesdays 4:00PM- 5:00PM 
 
-Course: (https://www.jetbrains.com/pycharm-edu/learners/)  
+Office Hours: Fridays 4:00PM- 5:00PM  
 
-Download Pycharm Community IDE:  (https://www.jetbrains.com/pycharm/download/#section=windows)  
+
+Download Pycharm Community IDE:  (https://www.jetbrains.com/pycharm/download/#section=windows)  or any other IDE of your choice.
 
 Download Python 3.6.5:  (https://www.python.org/downloads/)  
   
@@ -33,19 +34,22 @@ Topics:*
 - Libraries  
 
 **Week 4: Project Development Phase 1**  
-*Project: Parser X  
+*Project: Final Project 
+BattleShip or Calculator GUI
 Description:*  
 
-User should create a script which searches through the current directory searching for specific excel files. The data from those files will be summarized and compiled into one masterfile and cells will be highlighted based on processor generation  
+*TBA
 
 **Week 5: Project Development Phase 2**  
-*Project: Parser X  
+*Project: Final Project 
+BattleShip and Calculator GUI
 Description:*  
 
-Users should create a script which searches through the current directory searching for specific excel files. The data from those files will be summarized and compiled into one masterfile and cells will be highlighted based on processor generation  
+*TBA
 
 **Week 6: Project Development Phase 3**  
-*Project: Parser X  
+*Project: Final Project
+BattleShip and Calculator GUI
 Description:*  
 
-Users should create a script which searches through the current directory searching for specific excel files. The data from those files will be summarized and compiled into one masterfile and cells will be highlighted based on processor generation
+*TBA
