@@ -29,7 +29,6 @@ Topics:*
 **Week 3: Users should be able to use algorithms to analyze data**  
 *Lab 
 Topics:*
-- Basic String Operations
 - Conditions
 - Loops
 - Functions  
