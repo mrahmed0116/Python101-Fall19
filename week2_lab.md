@@ -7,7 +7,7 @@
 4. Complete any challenges provided
    
    
-***Important: Type out and run code in IDE/script file as you go****
+***Important: Type out and run code in your own IDE/script file as you go****
    
 **Challenge:**
 
