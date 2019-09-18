@@ -3,7 +3,7 @@
 **Tasks:** 
 1. Navigate to https://www.learnpython.org/
 2. Launch PyCharm (or any IDE of choice) and create a new file (name it week3_lab)
-3. Complete the variable and types through the basic string operations tutorials
+3. Complete the conditions tutorial through the classes and objects tutorials
 4. Complete any challenges provided (feel free to work on challenges instead of lab if comfortable)
    
    
