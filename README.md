@@ -34,11 +34,9 @@ Topics:*
 - Functions  
 - Classes and Objects
 
-**Week 4: Project Development Phase 1**  
-*Project: Final Project 
-Description:*  
+**Week 4: Putting it all together
 
-*TBA
+Review prior week's material through exercises.
 
 **Week 5: Project Development Phase 2**  
 *Project: Final Project 
