@@ -34,7 +34,7 @@ Then, the output should be:
 
 Hints: In case of input data being supplied to the question, it should be assumed to be a console input.
 
-3.) Write a Python program to read a file line by line store it into an array. Print the array.
+3.) Write a Python program to read a text file line by line store it into an array. Print the array.
 
 Happy coding!
 
