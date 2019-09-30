@@ -34,7 +34,7 @@ Topics:*
 - Functions  
 - Classes and Objects
 
-**Week 4: Putting it all together
+**Week 4: Review**
 
 Review prior week's material through exercises.
 
