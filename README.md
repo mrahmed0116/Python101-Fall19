@@ -38,14 +38,8 @@ Topics:*
 
 Review prior week's material through exercises.
 
-**Week 5: Project Development Phase 2**  
-*Project: Final Project 
-Description:*  
+**Week 5: Project Development**  
+Project: Flight Data Filter
 
-*TBA
-
-**Week 6: Project Development Phase 3**  
-*Project: Final Project
-Description:*  
-
-*TBA
+**Week 6: Project Development**  
+Project: Flight Data Filter
