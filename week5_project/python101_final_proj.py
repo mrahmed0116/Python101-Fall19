@@ -14,8 +14,6 @@ except ImportError:
         subprocess.call(['pip', 'install', 'pathlib'])
         import pathlib
 
-
-
 class AirportFilter(object):
     """
     :brief Class contains methods for obtaining input/output files and handles parsing logic.
