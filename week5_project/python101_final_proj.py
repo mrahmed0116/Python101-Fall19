@@ -2,6 +2,7 @@ import os
 import argparse
 import subprocess
 import glob
+import sys
 
 try:
     import pathlib
@@ -13,6 +14,11 @@ except ImportError:
     else: # linux
         subprocess.call(['pip', 'install', 'pathlib'])
         import pathlib
+        
+if sys.version_info.major == 2:
+    inputter = raw_input
+else: # if python 3
+    inputter = input
 
 class AirportFilter(object):
     """
@@ -46,7 +52,7 @@ class AirportFilter(object):
             usr_trial = 3
         
             while usr_trial:
-                usr_input = raw_input("Trial %d, Input a correct file/format : " % usr_trial)
+                usr_input = inputter("Trial %d, Input a correct file/format : " % usr_trial)
                 try:
                     if os.path.isfile(usr_input) or pathlib.Path(self.datFile).suffix != "dat":
                         self.datFile = usr_input
@@ -76,7 +82,7 @@ class AirportFilter(object):
         """
 
         if self.outputFile == None:
-            self.outputFile = raw_input("Please provide an output file: ")
+            self.outputFile = inputter("Please provide an output file: ")
 
             if self.outputFile == "":
                 print("User hit Enter without input. Terminating program.")
@@ -91,7 +97,7 @@ class AirportFilter(object):
         if len(files) > 0:  # Files with similar extension exist
             for file in files:
                 if self.outputFile in file:
-                    usr_input = raw_input(
+                    usr_input = inputter(
                         "\nThe file %s already exists. Do you wish to overwrite existing file. Yes or No? " % self.outputFile)
 
                     if usr_input.upper() not in ["YES", "YA", "YEP", "YESSIR", "YOU ALREADY KNOW", "YEAH"]:
@@ -106,6 +112,7 @@ class AirportFilter(object):
         :param -
         :return None
         """
+        print("\nGreat! Reading and processing data.")
         with open(self.datFile, "r") as dat:
             self.inputLines = dat.readlines()
 
@@ -124,7 +131,7 @@ class AirportFilter(object):
         :return None
         """
         if self.airport == None:
-            self.airport = raw_input("\nEnter airport symbol: ")
+            self.airport = inputter("\nEnter airport symbol: ")
 
         if self.airport.upper() in self.flightsDict.keys():
             print("\nFlight logs are written to %s.\n" % os.path.abspath(self.outputFile))
