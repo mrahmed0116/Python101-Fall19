@@ -123,16 +123,17 @@ class AirportFilter(object):
         :param -
         :return None
         """
-        usr_input = raw_input("\nEnter airport symbol: ")
+        if self.airport == None:
+            self.airport = raw_input("\nEnter airport symbol: ")
 
-        if usr_input.upper() in self.flightsDict.keys():
+        if self.airport.upper() in self.flightsDict.keys():
             print("\nFlight logs are written to %s.\n" % os.path.abspath(self.outputFile))
             with open(self.outputFile, "w+") as out:
-                out.write("Logging flights initiated from airport %s\n" % usr_input)
-                for logs in self.flightsDict[usr_input.upper()]:
+                out.write("Logging flights initiated from airport %s\n" % self.airport)
+                for logs in self.flightsDict[self.airport.upper()]:
                     out.write(logs)
         else:
-            print("\nThe entry %s was not a valid IATA. Terminating program.\n" % usr_input.upper())
+            print("\nThe entry %s was not a valid IATA. Terminating program.\n" % self.airport.upper())
 
         print("Good bye!\n")
         return
