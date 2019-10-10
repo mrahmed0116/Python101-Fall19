@@ -37,7 +37,7 @@ class AirportFilter(object):
         self.outputFile = outFile
         self.airport = iata
         self.inputLines = []
-        self.flightsDict = dict()
+        self.flightsDict = dict() # or self.flightsDict = {}
         
     def validateInputFile(self):
         """
@@ -144,8 +144,7 @@ class AirportFilter(object):
 
         print("Good bye!\n")
         return
-
-
+        
 
 if __name__ == '__main__':
    
@@ -163,4 +162,6 @@ if __name__ == '__main__':
         if iataFilter.validateOutputFile():
             iataFilter.readInput()
             iataFilter.processIATA()
+        
     exit()
+    
